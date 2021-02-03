@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 180px 0 220px 0;
+  background-image: url(back.jpg);
+  background-size: cover;
+  color:black;
+  text-align: center;
+}
+.top-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+.top-wrapper p {
+  font-size: 20px;
+}
+.btn-wrapper {
+  margin: 100px 0;
+  font-size:20px;
+}
+a.btn--color1 {
+  color: #fff;
+  background-color:red;
+}
+a.btn--color2 {
+  color: #fff;
+  background-color:dodgerblue;
+}
+a.btn--color3 {
+  color: #fff;
+  background-color:gold;
+}
+a.btn--color1:hover {
+  color:gray;
+  background:orangered;
+}
+a.btn--color2:hover {
+  color:gray;
+  background:steelblue;
+}
+a.btn--color3:hover {
+  color:gray;
+  background:goldenrod;
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+a.btn--circle {
+  border-radius: 50%;
+  line-height: 100px;
+  width: 140px;
+  height: 140px;
+  padding:80px 60px;
+  margin:0 40px;
+}
+a.btn--width{
+  padding:80px 65px;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-image: url(header.jpg);
+  position:fixed;
+  top:0;
+  z-index:10;
+  display: flex;
+  align-items: center;
+}
+.logo {
+ width: 130px;
+ margin-top: 15px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float:right;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 20px;
+  color: black;
+  font-size:15px;
+}
+footer {
+  padding: 60px 0;
+  background-color:black;
+  color:#fff;
+}
+footer p{
+  font-size: 15px;
+  float: right;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+.list1:hover{
+  background-color:red;  
+  }
+.list2:hover{
+  background-color:dodgerblue;
+}
+.list3:hover{
+  background-color:gold;
+}
+.header-left a:hover{
+  background: honeydew;
+}
+.wrapper{
+  padding: 100px 0 350px 0;
+  background-image: url(back.jpg);
+  background-size: cover;
+  color:black;
+}
+.intro-body{
+   margin:0 150px;
+}
+.intro-body h1 {
+  padding:10px 10px;
+  background: transparent;
+  border-left: solid 10px red;
+
+}
+.intro-body p{
+  font-size: 20px;
+  padding:10px 20px;
+  line-height: 60px;
+}
+.my{
+  width:250px;
+  height:380px;
+  padding-left: 10px;
+}
+.my a:hover{
+  background-color:red;
+}
+.pr-body{
+  margin:0 150px;
+}
+.pr-body h1{
+  padding:10px 10px;
+  background: transparent;
+  border-left: solid 10px dodgerblue;
+}
+.pr-body p{
+  font-size: 20px;
+  padding:10px 20px;
+  line-height: 60px;
+}
+.student-body{
+  margin:0 150px;
+}
+.student-body h1{
+  padding:10px 10px;
+  background: transparent;
+  border-left: solid 10px gold;
+}
+.student-body p{
+  font-size: 20px;
+  padding:10px 20px;
+  line-height: 60px;
+}
